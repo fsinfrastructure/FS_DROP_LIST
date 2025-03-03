@@ -1,8 +1,7 @@
 on:
   push:
   schedule:
-  #- cron: '23 8 * * *'
-  - cron: '10 */1 * * *'
+  - cron: '23 8 * * *'
 
 #on: push
 jobs:
